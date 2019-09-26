@@ -1,0 +1,51 @@
+{
+  "name": "msbios/exception",
+  "description": "MSBios Exception",
+  "license": "MIT",
+  "keywords": [
+    "php"
+  ],
+  "homepage": "https://github.com/msbios/msbios-exception",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Judzhin Miles",
+      "email": "info@msbios.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MSBios\\Exception\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MSBiosTest\\Exception\\": "tests/"
+    }
+  },
+  "require": {
+    "msbios/msbios": "^1.0"
+  },
+  "require-dev": {
+    "msbios/test": "^1.0",
+    "msbios/debug": "^1.0"
+  },
+  "scripts": {
+    "cs-check": "phpcs",
+    "cs-fix": "phpcbf",
+    "test": [
+      "@cs-check",
+      "phpunit --colors=always"
+    ],
+    "test-coverage": "phpunit --colors=always --coverage-clover clover.xml",
+    "upload-coverage": "coveralls -v"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "extra": {
+    "zf": {
+      "component": "MSBios\\Exception"
+    }
+  }
+}
