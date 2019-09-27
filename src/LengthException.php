@@ -8,7 +8,10 @@ namespace MSBios\Exception;
 
 /**
  * Class LengthException
- * @package MSBios\Exception
+ *
+ * @inheritdoc
+ *
+ * @inheritdoc@package MSBios\Exception
  */
 class LengthException extends \LengthException
 {

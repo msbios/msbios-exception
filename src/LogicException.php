@@ -7,6 +7,9 @@ namespace MSBios\Exception;
 
 /**
  * Class LogicException
+ *
+ * @inheritdoc
+ *
  * @package MSBios\Exception
  */
 class LogicException extends \LogicException

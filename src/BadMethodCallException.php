@@ -8,6 +8,9 @@ namespace MSBios\Exception;
 
 /**
  * Class BadMethodCallException
+ *
+ * @inheritdoc
+ *
  * @package MSBios\Exception
  */
 class BadMethodCallException extends \BadMethodCallException

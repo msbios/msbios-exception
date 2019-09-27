@@ -7,7 +7,11 @@ namespace MSBios\Exception;
 
 /**
  * Class Module
+ *
+ * @inheritdoc
+ *
  * @package MSBios\Exception
+ * @see https://webdevetc.com/blog/why-you-should-use-spl-exceptions-in-php-for-better-exception-handling
  */
 class Module extends \MSBios\Module
 {

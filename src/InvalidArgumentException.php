@@ -8,6 +8,9 @@ namespace MSBios\Exception;
 
 /**
  * Class InvalidArgumentException
+ *
+ * @inheritdoc
+ *
  * @package MSBios\Exception
  */
 class InvalidArgumentException extends \InvalidArgumentException
