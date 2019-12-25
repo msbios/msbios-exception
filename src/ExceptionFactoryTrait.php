@@ -17,10 +17,10 @@ trait ExceptionFactoryTrait
     /**
      * @param string $message
      *
-     * @return ExceptionFactoryTrait
+     * @return \Throwable
      */
-    protected static function create(string $message): self
+    protected static function create(string $message): \Throwable
     {
-        return new self($message);
+        return new static($message);
     }
 }
