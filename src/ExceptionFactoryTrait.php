@@ -19,7 +19,7 @@ trait ExceptionFactoryTrait
      *
      * @return ExceptionFactoryTrait
      */
-    private static function create(string $message): self
+    protected static function create(string $message): self
     {
         return new self($message);
     }
