@@ -13,8 +13,8 @@ namespace MSBios\Exception;
  * @package MSBios\Exception
  * @see https://webdevetc.com/blog/why-you-should-use-spl-exceptions-in-php-for-better-exception-handling
  */
-class Module extends \MSBios\Module
+class Module
 {
     /** @const VERSION */
-    const VERSION = '1.0.4';
+    const VERSION = '2.0.0';
 }
